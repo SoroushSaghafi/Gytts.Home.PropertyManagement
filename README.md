@@ -77,4 +77,15 @@ Data:
 ------------------------------------
 All we need to gradually add other classes to Data folder and that is all other components need to talk to.
 
+-----------------------------------
+Minimal API 
+-----------------------------------
 
+Get Connection String from DataAccess project and set it in API project (appsetting.json)
+For some reasons it did not work, so I published the database project and got the connectionstr from SQL Server directly. Now it works.
+
+Note 1: API starts with program.cs file where all its code is encapsulated in a hidden **static void main**
+Note 2: Dependecy Injections are implemented using builder.Services
+
+Add reference to DataAccess 
+Add Global Using to DataAccess.Data - Do that in a separate file not programs.cs. Add a new file called GlobalUsings.cs
