@@ -8,6 +8,12 @@ namespace Gytts.Home.PropertyManagement.DataAccessLayer.Entities;
 
 public class PropertyEntity
 {
+    //public PropertyEntity(string name, string address)
+    //{
+    //    Name = name;
+    //    Address = address;
+    //}
+
     public int Id { get; set; }
     public string Name { get; set; }
     public string Address { get; set; }
