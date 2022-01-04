@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gytts.Home.PropertyManagement.API", "Gytts.Home.PropertyManagement.API\Gytts.Home.PropertyManagement.API.csproj", "{544EB0EB-3EAD-4E49-867E-A13795F3E8D3}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Gytts.Home.PropertyManagement.Database", "Gytts.Home.PropertyManagement.Database\Gytts.Home.PropertyManagement.Database.sqlproj", "{33ED878A-F0A7-43D1-810F-58D92F61869B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gytts.Home.PropertyManagement.DataAccessLayer", "Gytts.Home.PropertyManagement.DataAccessLayer\Gytts.Home.PropertyManagement.DataAccessLayer.csproj", "{000FC0EC-6895-4DAB-A21F-3744389B8522}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E504F9CB-9552-49CC-A987-938F2AC52F0E}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{544EB0EB-3EAD-4E49-867E-A13795F3E8D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{544EB0EB-3EAD-4E49-867E-A13795F3E8D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{544EB0EB-3EAD-4E49-867E-A13795F3E8D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{544EB0EB-3EAD-4E49-867E-A13795F3E8D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33ED878A-F0A7-43D1-810F-58D92F61869B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33ED878A-F0A7-43D1-810F-58D92F61869B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33ED878A-F0A7-43D1-810F-58D92F61869B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{33ED878A-F0A7-43D1-810F-58D92F61869B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33ED878A-F0A7-43D1-810F-58D92F61869B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33ED878A-F0A7-43D1-810F-58D92F61869B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{000FC0EC-6895-4DAB-A21F-3744389B8522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{000FC0EC-6895-4DAB-A21F-3744389B8522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{000FC0EC-6895-4DAB-A21F-3744389B8522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{000FC0EC-6895-4DAB-A21F-3744389B8522}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C723D40-15AA-4314-AB8E-B512884546F2}
+	EndGlobalSection
+EndGlobal
