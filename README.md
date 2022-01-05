@@ -108,7 +108,7 @@ Note: CORS can be added later at different levels whether Resource Group, App Se
 
 Note: All web Apps, API Apps or Logic Apps will be deployed into a _.azurewebsites.net_ domain name.
 
-Note: Once you level up your API to a Managed API, it will be accessible through a _.azure-api.net_ domain name.
+Note: Once you level up your API to a Managed API, it will be accessible through a _.azure-api.net_ domain name. It works as a front-end layer to protect your API which is now at the backend. It provides Swagger, Gateway, Secvurity and other features.
 
 
 
