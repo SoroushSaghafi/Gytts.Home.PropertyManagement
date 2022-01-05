@@ -103,3 +103,11 @@ API App – used for hosting the RESTful APIs.
 Logic App – used for business process automation, system integration and sharing data across clouds.
 
 Basically they are the same concept. Even creating an App Service and creating a Web App is identical. In reality, a Web App is a web application that is hosted in an App Service.
+
+Note: CORS can be added later at different levels whether Resource Group, App Service, API app or MAPI.
+
+Note: All web Apps, API Apps or Logic Apps will be deployed into a _.azurewebsites.net_ domain name.
+Note: Once you level up your API to a Managed API, it will be accessible through a _.azure-api.net_ domain name.
+
+
+
