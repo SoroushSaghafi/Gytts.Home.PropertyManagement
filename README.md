@@ -89,3 +89,17 @@ Note 2: Dependecy Injections are implemented using builder.Services
 
 Add reference to DataAccess 
 Add Global Using to DataAccess.Data - Do that in a separate file not programs.cs. Add a new file called GlobalUsings.cs
+
+
+-------------------------------------------------------------------------------------------------------------
+Your App is ready. Publish it to Azure.
+- To publish your web app, you must first create and configure a new App Service in Azure.
+- Publish your app to the App Service you just created in Azure.
+- Use Publish from VS directly.
+
+App Services can be one of these three: (can host one of these three)
+Web App – used for hosting websites and web applications (previously Azure Websites)
+API App – used for hosting the RESTful APIs.
+Logic App – used for business process automation, system integration and sharing data across clouds.
+
+Basically they are the same concept. Even creating an App Service and creating a Web App is identical. In reality, a Web App is a web application that is hosted in an App Service.
