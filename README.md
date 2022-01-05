@@ -107,6 +107,7 @@ Basically they are the same concept. Even creating an App Service and creating a
 Note: CORS can be added later at different levels whether Resource Group, App Service, API app or MAPI.
 
 Note: All web Apps, API Apps or Logic Apps will be deployed into a _.azurewebsites.net_ domain name.
+
 Note: Once you level up your API to a Managed API, it will be accessible through a _.azure-api.net_ domain name.
 
 
