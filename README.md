@@ -33,15 +33,21 @@ Add Script (at project level)
 	
 Minute: 23
 
-Publish 	
-	Edit - Browse - Local - SQL DB
-	Database name: Gytts.Home.PropertyManagement
-	Publish Script Name: PublishScript.sql
-	Save Profile as - Goes to the project root
-	Go to SQL Server explorer to see it is not there!
-	Publish it
-	Refresh SQL Server explorer to see it is there now!
+Publish to local:
+
+- Edit - Browse - Local - SQL DB
+- Database name: Gytts.Home.PropertyManagement
+- Publish Script Name: PublishScript.sql
+- Save Profile as - Goes to the project root
+- Go to SQL Server explorer to see it is not there!
+- Publish it
+- Refresh SQL Server explorer to see it is there now!
 	
+Publish it to Azure:
+
+- Create an Azure SQL from Portal
+- Publish from VS - Edit - Browse 
+- Publish 
 
 Note: By default this file will not go into source control as it might have some sensitive data in it.
 
