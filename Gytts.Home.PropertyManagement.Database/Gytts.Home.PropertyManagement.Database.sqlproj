@@ -69,6 +69,7 @@
     <PostDeploy Include="Script.PostDeployment.sql" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Gytts.Home.PropertyManagement.Database.publish.xml" />
+    <None Include="Local.publish.xml" />
+    <None Include="Azure.publish.xml" />
   </ItemGroup>
 </Project>
